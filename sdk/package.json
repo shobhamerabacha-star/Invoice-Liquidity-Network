@@ -38,7 +38,7 @@
     }
   },
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "prepare": "husky install || true",
     "lint": "eslint src --ext .ts",
     "test": "vitest run",

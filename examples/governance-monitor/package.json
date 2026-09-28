@@ -4,8 +4,8 @@
   "description": "Governance proposal monitor for Invoice Liquidity Network with Discord notifications",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
-    "dev": "ts-node index.ts --verbose"
+    "start": "node init && ts-node index.ts",
+    "dev": "node init && ts-node index.ts --verbose"
   },
   "keywords": [
     "iln",

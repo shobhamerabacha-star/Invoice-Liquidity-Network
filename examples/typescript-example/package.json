@@ -4,8 +4,8 @@
   "description": "TypeScript example for the ILN SDK",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node index.ts",
-    "build": "tsc"
+    "start": "node init && ts-node index.ts",
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@iln/sdk": "file:../../sdk",

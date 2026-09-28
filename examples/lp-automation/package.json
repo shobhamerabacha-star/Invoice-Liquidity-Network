@@ -4,8 +4,8 @@
   "description": "LP funding automation script for Invoice Liquidity Network",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
-    "start:dry-run": "ts-node index.ts --dry-run"
+    "start": "node init && ts-node index.ts",
+    "start:dry-run": "node init && ts-node index.ts --dry-run"
   },
   "dependencies": {
     "@invoice-liquidity/sdk": "file:../../sdk",

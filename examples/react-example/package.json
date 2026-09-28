@@ -4,8 +4,8 @@
   "description": "React example for the ILN SDK with Freighter wallet integration",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "node init && react-scripts start",
+    "build": "node init && react-scripts build"
   },
   "dependencies": {
     "@iln/sdk": "file:../../sdk",

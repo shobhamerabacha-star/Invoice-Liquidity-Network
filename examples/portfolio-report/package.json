@@ -4,8 +4,8 @@
   "description": "Portfolio reporting script for Invoice Liquidity Network",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node index.ts",
-    "build": "tsc",
+    "start": "node init && ts-node index.ts",
+    "build": "node init && tsc",
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {

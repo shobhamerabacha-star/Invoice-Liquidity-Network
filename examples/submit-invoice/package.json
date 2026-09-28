@@ -4,8 +4,8 @@
   "description": "Example Node.js script for submitting invoices programmatically",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node index.ts",
-    "build": "tsc"
+    "start": "node init && ts-node index.ts",
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@iln/sdk": "file:../../sdk",

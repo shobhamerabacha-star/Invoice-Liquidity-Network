@@ -17,7 +17,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "type-check": "tsc -p tsconfig.json --noEmit",
     "test": "tsc -p tsconfig.json && tsd"
   },
