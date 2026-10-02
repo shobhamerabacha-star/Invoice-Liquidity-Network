@@ -6,8 +6,8 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
-    "dev": "ts-node index.ts --verbose",
+    "start": "node init && ts-node index.ts",
+    "dev": "node init && ts-node index.ts --verbose",
     "verify": "ts-node index.ts --verify"
   },
   "dependencies": {

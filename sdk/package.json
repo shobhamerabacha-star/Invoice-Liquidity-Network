@@ -38,7 +38,7 @@
     }
   },
   "scripts": {
-    "build": "tsup && node ../scripts/check-bundle-size.js",
+    "build": "node init && tsup && node ../scripts/check-bundle-size.js",
     "prepare": "husky install || true",
     "lint": "eslint src --ext .ts",
     "test": "vitest run",

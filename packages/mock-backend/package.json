@@ -1,7 +1,7 @@
 {
   "name": "@iln/mock-backend",
   "version": "0.1.0",
-  "description": "In-memory mock backend for the Invoice Liquidity Network — enables offline frontend development without a live Stellar node.",
+  "description": "In-memory mock backend for the Invoice Liquidity Network \u2014 enables offline frontend development without a live Stellar node.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -17,7 +17,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "type-check": "tsc --noEmit",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",

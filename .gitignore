@@ -36,7 +36,6 @@ package-lock.json
 # Environment & secrets
 # =============================================================================
 
-.env
 .secrets.baseline
 .security/
 
@@ -51,7 +50,6 @@ package-lock.json
 # IDE files
 # =============================================================================
 
-.vscode/
 .idea/
 
 # =============================================================================
@@ -111,3 +109,4 @@ TODO.md
 
 test-results/
 playwright-report/
+config.bat
