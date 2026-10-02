@@ -4,7 +4,7 @@
   "description": "JavaScript (CommonJS) example for the ILN SDK",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node init && node index.js"
   },
   "license": "MIT",
   "engines": {

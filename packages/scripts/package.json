@@ -13,7 +13,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "start": "node bin/iln.js",
+    "start": "node init && node bin/iln.js",
     "release": "ts-node src/release.ts"
   },
   "dependencies": {
